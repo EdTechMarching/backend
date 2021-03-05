@@ -10,8 +10,7 @@ mongoose.connect(mongoURI, {
 	useCreateIndex: true,
 	useUnifiedTopology: true,
 	useFindAndModify: false,
-});
-
+})
 .then((instance) =>
 		console.log(`connected to db: ${instance.connections[0].name}`)
 )
