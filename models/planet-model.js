@@ -11,4 +11,4 @@ const PlanetSchema = new mongoose.Schema(
 
 const Planet = mongoose.model('Planet', PlanetSchema);
 
-module.exports = Todo;
+module.exports = Planet;

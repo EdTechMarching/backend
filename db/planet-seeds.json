@@ -1,0 +1,12 @@
+[
+    {
+        "array": [{
+            ["I am an inner rockey planet"
+            "I am the second smallest planet and about half of the size of Earth"
+            "People named me after a Roman god of war because of my color, but my color is simply defined by the rusting process of the surface minerals."],
+        "answer": "Mars",
+        "selection": [{"planetName":"ipsum", "planetImageHiRes":"url", "planetImageLoRes":"url"}, {"planetName":"ipsum", "planetImageHiRes":"url", "planetImageLoRes":"url"}, {"planetName":"ipsum", "planetImageHiRes":"url", "planetImageLoRes":"url"          
+        }],
+        "hint": ["lorem", "ipsum", "muspi"]
+    }
+]
