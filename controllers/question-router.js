@@ -1,7 +1,10 @@
 const express = require("express")
+require("dotenv").config()
 const seeder = require("../seeds/seeder")
 const questionRouter = express.Router()
 const Question = require("../models/question-model.js")
+
+const { SEED } = process.env
 
 // routes
 questionRouter.get("/", (req, res) => {
@@ -17,7 +20,7 @@ questionRouter.post("/", (req, res) => {
 })
 
 // seed routes
-questionRouter.get("/seed", (req, res) => {
+questionRouter.get(`/${SEED}`, (req, res) => {
 	Question.create(seeder, (err, created) => {
 		res.json(created)
 	})

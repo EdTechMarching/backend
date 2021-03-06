@@ -1,10 +1,12 @@
 const express = require("express")
+const cors = require("cors")
 const mongoose = require("mongoose")
 const questionRouter = require("./controllers/question-router")
 
 // Config + Connect/////////////////////////////////////////////////////////////////////////
 require("dotenv").config()
 const app = express()
+app.use(cors())
 const PORT = 4000
 const { MONGODB_URI } = process.env
 
