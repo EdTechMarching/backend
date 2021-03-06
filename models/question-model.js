@@ -1,4 +1,4 @@
-const mongoose = require('../db/connection');
+const mongoose = require("mongoose")
 
 const QuestionSchema = new mongoose.Schema({
 	answer: [String],
@@ -6,9 +6,9 @@ const QuestionSchema = new mongoose.Schema({
 	hint: [String],
 	popupImage: String,
 	popupRight: [String],
-	popupBelow: String,
-});
+	popupBelow: String
+})
 
-const Question = mongoose.model('Question', QuestionSchema);
+const Question = mongoose.model("Question", QuestionSchema)
 
-module.exports = Question;
+module.exports = Question
