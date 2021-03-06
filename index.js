@@ -1,14 +1,19 @@
 const express = require('express');
 const app = express();
 // Start route controllers
-const Planet = require('./models/planet-model.js');
-app.get('/planets', (req, res) => {
-    Planet.find({})
-    .then((planets) => {
-        res.render('planets/index', { todos });
-    })
-    .catch(console.error);
-})
+const Question = require('./models/question-model.js');
+app.get('/questions', (req, res) => {
+	Question.find({}, (err, found) => {
+		res.json(found);
+	});
+});
+app.post('/questions', (req, res) => {
+	Question.create(req.body, (err, created) => {
+		Question.find({}, (err, found) => {
+			res.json(found);
+		});
+	});
+});
 // end route controllers
 
 const port = process.env.PORT || 4000;
