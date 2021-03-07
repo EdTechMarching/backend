@@ -7,7 +7,7 @@ const questionRouter = require("./controllers/question-router")
 require("dotenv").config()
 const app = express()
 app.use(cors())
-const PORT = 4000
+const { PORT } = process.env || 4000
 const { MONGODB_URI } = process.env
 
 mongoose
