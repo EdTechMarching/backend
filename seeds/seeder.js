@@ -29,7 +29,7 @@ module.exports = [
 	{
 		answer: [
 			"Jupiter",
-			"https://res.cloudinary.com/tinamarieg/image/upload/v1614989021/Jupiter_V_bhhicq.png"
+			"https://res.cloudinary.com/tinamarieg/image/upload/v1615072431/Jupiter_Updated_dzfa60.png"
 		],
 		selection: ["Venus", "Neptune", "Jupiter"],
 
@@ -82,7 +82,7 @@ module.exports = [
 	{
 		answer: [
 			"Saturn",
-			"https://res.cloudinary.com/tinamarieg/image/upload/v1614989091/Saturn_V_gghx6l.png"
+			"https://res.cloudinary.com/tinamarieg/image/upload/v1615072428/Saturn_Updated_gomvvo.png"
 		],
 		selection: ["Mercury", "Saturn", "Neptune"],
 
@@ -163,7 +163,7 @@ module.exports = [
 	{
 		answer: [
 			"Venus",
-			"https://res.cloudinary.com/tinamarieg/image/upload/v1614989098/Venus_V_fg5j4x.png"
+			"https://res.cloudinary.com/tinamarieg/image/upload/v1615072419/Venus_Updated_zjxrb7.png"
 		],
 		selection: ["Venus", "Mercury", "Saturn"],
 
